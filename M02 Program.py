@@ -1,3 +1,8 @@
+# Ethan Wheeler
+# M02 Program
+# Takes student names and makes two lists featuring them if thier GPA is within either 3.25 or 3.5.
+
+
 # Initializes lists
 deanList = []
 honorList = []
@@ -8,9 +13,9 @@ while True:
     if name == "ZZZ":
         break
     value = float(input("Enter that student's GPA: "))
-    if value >= 2.5:
+    if value >= 3.25:
         honorList.append(name)
-    elif value >= 3.5:
+    if value >= 3.5:
         deanList.append(name)
 
 # Displays output          
